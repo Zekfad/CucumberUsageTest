@@ -1,0 +1,31 @@
+{
+	"folders": [
+		{
+			"path": ".",
+			"name": "Root"
+		},
+	],
+	"settings": {
+		"java.configuration.updateBuildConfiguration": "automatic",
+		"java.compile.nullAnalysis.mode": "automatic",
+		"cucumber.glue": [
+			"app/src/test/**/*.java",
+		],
+		"cucumber.features": [
+			"app/src/test/resources/features/**/*.feature",
+		],
+	},
+	"extensions": {
+		"recommendations": [
+			"vscjava.vscode-java-pack",
+			"vscjava.vscode-java-debug",
+			"vscjava.vscode-java-dependency",
+			"vscjava.vscode-java-test",
+			"vscjava.vscode-maven",
+			"vscjava.vscode-gradle",
+			"cucumberopen.cucumber-official",
+			"redhat.java",
+			"ms-vscode.test-adapter-converter",
+		]
+	}
+}
