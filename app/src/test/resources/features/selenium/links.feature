@@ -9,7 +9,7 @@ Feature: Selenium links test
     Then Find element with xpath <xpath>
     Then Element should be a link
     Then Follow link element
-	Then URL should be <link>
+	  Then URL should be <link>
   Examples:
     | url                 | xpath                   | link                                  |
     | https://example.com | "/html/body/div/p[2]/a" | https://www.iana.org/domains/reserved |
